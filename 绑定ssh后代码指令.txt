@@ -1,0 +1,6 @@
+//绑定ssh后代码指令
+PS C:\剑指Offer> git init
+Initialized empty Git repository in C:/剑指Offer/.git/
+PS C:\剑指Offer> git config --global user.name "mricecubeno1"
+PS C:\剑指Offer> git config --global user.email  "dazinanshan@gmail.com"
+PS C:\剑指Offer> git remote add origin https://mricecubeno1:1Aprilove@github.com/mricecubeno1/leetcodeOffer.git
