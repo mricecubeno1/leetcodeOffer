@@ -11,11 +11,6 @@ const r1 = readline.createInterface({
     output:process.stdout
 });
 const lines = [];
-// r1.question('输入文字是：',(answer)=>{
-//     s = answer;
-//     // console.log(answer);
-//     r1.close();
-// });
 r1.on('line',(line)=>{
     lines.push(line);
     if(lines.length==2){
