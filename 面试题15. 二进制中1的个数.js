@@ -8,6 +8,7 @@
  * @return {number}
  */
 /**自身与自身减一后的数比较可以除掉最末尾的1 */
+//把一个整数减去1，再与原整数相与，会把原整数的最右边的1变成0
 var hammingWeight = function(n) {
     var m =0;
     while(n!=0){
