@@ -25,6 +25,9 @@ var merge = function (A, m, B, n) {
     }
 };
 
+// var a = '  asdf  a   ';
+// console.log(a.trim());
+
 //lily
 var merge = function(A, m, B, n) {
         A.splice(m, n);
